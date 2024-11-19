@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #cce7e8;
+  line-height: 1.6;
+}
+
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+}
+
+.header h1 {
+  color: #71f1f3;
+  font-size: 3rem;
+}
+
+
+.main-content {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1 1 calc(50% - 20px);
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+}
+
+.card img {
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  color: #71f1f3;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #cce7e8;
+}
+
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.subscribe input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #71f1f3;
+  border-radius: 4px;
+  background-color: #121212;
+  color: #cce7e8;
+}
+
+.subscribe button {
+  padding: 10px;
+  background-color: #71f1f3;
+  color: #121212;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.footer {
+  background-color: #121212;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-table {
+  margin: 0 auto;
+  border-spacing: 30px;
+  color: #cce7e8;
+}
+
+.footer-table td {
+  text-align: left;
+  color: #71f1f3;
+}
+a {
+  text-decoration: none; 
+  color: inherit; 
+  background: none; 
+  border: none; 
+  display: inline; 
+}
+
+@media (max-width: 1024px) {
+  .card {
+      flex: 1 1 calc(100% - 20px);
+  }
+
+  .subscribe input,
+  .subscribe button {
+      flex: 1 1 100%;
+  }
+
+  .subscribe {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+      font-size: 2.5rem;
+  }
+
+  .footer-table {
+      width: 100%;
+  }
+
+  .footer-table td {
+      text-align: center;
+      display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+      font-size: 2rem;
+  }
+
+  .subscribe input {
+      width: 100%;
+  }
+
+  .subscribe button {
+      width: 100%;
+      margin-top: 10px;
+  }
+
+  .footer-table td {
+      margin-bottom: 15px;
+  }
+}
