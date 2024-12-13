@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #09028c;
+  background: #c885ad;
   color: #fff;
 }
 
@@ -22,7 +22,7 @@ header.logo {
   font-size: 24px;
   font-weight: bold;
   padding: 20px;
-  background: #2d0661;
+  background: #7e3dd3;
   color: white;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -47,7 +47,7 @@ header.logo {
 .article {
   display: flex;
   gap: 20px;
-  background: #ffffff;
+  background: #ececec;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 10px;
@@ -92,14 +92,14 @@ header.logo {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background: #021e38;
+  background: #5a0569;
   padding: 20px;
   border-radius: 10px;
   width: 100%; 
 }
 
 .sidebar-item {
-  background: #04395e;
+  background: #f63d75;
   color: white;
   text-align: center;
   padding: 15px;

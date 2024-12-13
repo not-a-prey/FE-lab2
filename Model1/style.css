@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #098270;
+  background-color: #cf4555;
   color: #f0f0f0;
   padding: 20px;
 }
@@ -16,7 +16,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #076759;
+  background-color: #c885ad;
   border-bottom: 1px solid #ccc;
   border-radius: 8px;
 }
@@ -33,10 +33,10 @@ header {
 .header-search input {
   padding: 5px;
   width: 100%;
-  background-color: #116e60;
+  background-color: #b272a0;
   border: none;
   outline: none;
-  color: #f0f0f0;
+  color: #ffffff;
   padding-left: 20px;
   border-radius: 10px;
 }
@@ -56,7 +56,7 @@ header {
 .sidebar-trends {
   flex: 1;
   padding: 20px;
-  background-color: #076759;
+  background-color: #b356c3;
   border-radius: 8px;
 }
 
@@ -69,7 +69,7 @@ header {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #289685;
+  background-color: #f886d2;
   border: none;
   background-color: transparent;
   color: #f0f0f0;
@@ -80,7 +80,7 @@ header {
 }
 
 .menu-item:hover {
-  background-color: #5a73a3;
+  background-color: #51658a;
 }
 
 .sidebar-trends {
@@ -102,7 +102,7 @@ header {
 }
 
 .trend-item:hover {
-  background-color: #5a73a3;
+  background-color: #51658a;
 }
 
 .section-buttons {
@@ -127,7 +127,7 @@ header {
 }
 
 .section-btn:hover {
-  background-color: #5a73a3;
+  background-color: #51658a;
 }
 
 .section-btn:last-child {
@@ -135,7 +135,7 @@ header {
 }
 
 .content {
-  background-color: #076759;
+  background-color: #fa73ef;
   padding: 20px;
   flex: 2;
   border-radius: 8px;

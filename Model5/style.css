@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #1a1a1a;
+  background-color: #9e5b8a;
   color: #cce7e8;
   line-height: 1.6;
 }
@@ -15,11 +15,11 @@ body {
 .header {
   text-align: center;
   padding: 20px;
-  background-color: #121212;
+  background-color: #320329;
 }
 
 .header h1 {
-  color: #71f1f3;
+  color: #60d0d2;
   font-size: 3rem;
 }
 
@@ -38,7 +38,7 @@ body {
 
 .card {
   flex: 1 1 calc(50% - 20px);
-  background-color: #2a2a2a;
+  background-color: #1a1526;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
@@ -75,18 +75,18 @@ body {
 .subscribe input {
   padding: 10px;
   width: 200px;
-  border: 1px solid #71f1f3;
+  border: 1px solid #c8e6e7;
   border-radius: 4px;
-  background-color: #121212;
-  color: #cce7e8;
+  background-color: #2d2c2c;
+  color: #f4f4f4;
 }
 
 .subscribe button {
   padding: 10px;
-  background-color: #71f1f3;
-  color: #121212;
+  background-color: #f85c74;
+  color: #c8c5c5;
   border: none;
-  border-radius: 4px;
+  border-radius: 3px;
   cursor: pointer;
   font-weight: bold;
 }

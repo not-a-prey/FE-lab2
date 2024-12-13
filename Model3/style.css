@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #dd873c;
+  background-color: #c885ad;
   margin: 0;
   padding: 0;
 }
 
 .site-header {
-  background-color: #0f265e;
+  background-color: #cf4555;
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
@@ -23,7 +23,7 @@ body {
 }
 
 .btn-register {
-  background-color: #157f6d;
+  background-color: #970d3d;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -72,7 +72,7 @@ body {
 .feature-item {
   float: left;
   width: calc(33.33% - 20px);
-  background-color: #157f6d;
+  background-color: #078973;
   color: white;
   padding: 20px;
   margin: 10px;
@@ -90,7 +90,7 @@ body {
 .step-item {
   float: left;
   width: calc(33.33% - 20px);
-  background-color: #647295;
+  background-color: #7e95ce;
   color: white;
   padding: 20px;
   margin: 10px;
@@ -104,7 +104,7 @@ body {
 }
 
 .footer-content {
-  background-color: #474747;
+  background-color: #e96070;
   color: white;
   align-items: center;
   display: flex;

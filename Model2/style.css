@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0a0f1f;
+    background-color: #cf4555;
     color: #f0f0f0;
     margin: 0;
 }
@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #1e1e2d;
+    background-color: #c885ad;
     border-bottom: 1px solid #ccc;
     width: 100%;
     box-sizing: border-box;
@@ -48,7 +48,7 @@ body {
 .search-bar {
     padding: 5px;
     width: 100%;
-    background-color: #03264b;
+    background-color: #b272a0;
     border: none;
     outline: none;
     color: #f0f0f0;
@@ -57,7 +57,7 @@ body {
 }
 
 .search-bar:hover{
-    background-color: #053466;
+    background-color: #ff9ff5;
     cursor: pointer;
     transition: background-color 0.5s ease;
 }
@@ -65,7 +65,7 @@ body {
 
 .cart {
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color: #4ae394;
     color: white;
     border: none;
     cursor: pointer;
@@ -73,7 +73,7 @@ body {
 }
 
 .cart:hover {
-    background-color: #0056b3;
+    background-color: #72ff7c;
     transition: background-color 0.5s ease;
 }
 
@@ -143,7 +143,7 @@ table {
 
 .buy-button {
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color: #0ca369;
     color: white;
     border: none;
     cursor: pointer;
@@ -151,13 +151,11 @@ table {
 }
 
 .buy-button:hover {
-    background-color: #0056b3;
+    background-color: #18613e;
     transition: background-color 0.5s ease;
 }
 
 
-
-/* Для екранів менше ніж 1024px */
 @media (max-width: 1024px) {
     .header {
         flex-direction: column;
@@ -177,7 +175,7 @@ table {
     }
 }
 
-/* Для екранів менше ніж 768px */
+
 @media (max-width: 768px) {
     .grid {
         justify-content: center;
@@ -188,7 +186,7 @@ table {
     }
 }
 
-/* Для екранів менше ніж 480px */
+
 @media (max-width: 560px) {
     .header {
         flex-direction: column;
