@@ -1,0 +1,177 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9e5b8a;
+  color: #cce7e8;
+  line-height: 1.6;
+}
+
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #320329;
+
+  h1 {
+    color: #60d0d2;
+    font-size: 3rem;
+  }
+}
+
+
+.main-content {
+  padding: 20px;
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    .card {
+      flex: 1 1 calc(50% - 20px);
+      background-color: #1a1526;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      max-width: 100%;
+
+      img {
+        max-width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+
+      h2 {
+        color: #71f1f3;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #cce7e8;
+      }
+    }
+  }
+}
+
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #c8e6e7;
+    border-radius: 4px;
+    background-color:  #2d2c2c;
+    color: #f4f4f4;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #f85c74;
+    color: #c8c5c5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+.footer {
+  background-color: #121212;
+  padding: 20px;
+  text-align: center;
+
+  .footer-table {
+    margin: 0 auto;
+    border-spacing: 30px;
+    color: #cce7e8;
+
+    td {
+      text-align: left;
+      color: #71f1f3;
+    }
+  }
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background: none;
+  border: none;
+  display: inline;
+}
+
+
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 1 calc(100% - 20px);
+  }
+
+  .subscribe {
+    flex-direction: column;
+
+    input,
+    button {
+      flex: 1 1 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .footer-table {
+    width: 100%;
+
+    td {
+      text-align: center;
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .subscribe {
+    input {
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+
+  .footer-table {
+    td {
+      margin-bottom: 15px;
+    }
+  }
+}

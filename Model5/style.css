@@ -11,32 +11,27 @@ body {
   line-height: 1.6;
 }
 
-
 .header {
   text-align: center;
   padding: 20px;
   background-color: #320329;
 }
-
 .header h1 {
   color: #60d0d2;
   font-size: 3rem;
 }
 
-
 .main-content {
   padding: 20px;
 }
-
-.cards {
+.main-content .cards {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
-
-.card {
+.main-content .cards .card {
   flex: 1 1 calc(50% - 20px);
   background-color: #1a1526;
   border-radius: 8px;
@@ -45,25 +40,21 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   max-width: 100%;
 }
-
-.card img {
+.main-content .cards .card img {
   max-width: 100%;
   height: 400px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 15px;
 }
-
-.card h2 {
+.main-content .cards .card h2 {
   color: #71f1f3;
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
-
-.card p {
+.main-content .cards .card p {
   color: #cce7e8;
 }
-
 
 .subscribe {
   display: flex;
@@ -71,96 +62,85 @@ body {
   gap: 10px;
   margin-bottom: 20px;
 }
-
 .subscribe input {
   padding: 10px;
   width: 200px;
   border: 1px solid #c8e6e7;
   border-radius: 4px;
-  background-color: #2d2c2c;
+  background-color:  #2d2c2c;
   color: #f4f4f4;
 }
-
 .subscribe button {
   padding: 10px;
   background-color: #f85c74;
   color: #c8c5c5;
   border: none;
-  border-radius: 3px;
+  border-radius: 4px;
   cursor: pointer;
   font-weight: bold;
 }
-
 
 .footer {
   background-color: #121212;
   padding: 20px;
   text-align: center;
 }
-
-.footer-table {
+.footer .footer-table {
   margin: 0 auto;
   border-spacing: 30px;
   color: #cce7e8;
 }
-
-.footer-table td {
+.footer .footer-table td {
   text-align: left;
   color: #71f1f3;
 }
+
 a {
-  text-decoration: none; 
-  color: inherit; 
-  background: none; 
-  border: none; 
-  display: inline; 
+  text-decoration: none;
+  color: inherit;
+  background: none;
+  border: none;
+  display: inline;
 }
 
 @media (max-width: 1024px) {
   .card {
-      flex: 1 1 calc(100% - 20px);
+    flex: 1 1 calc(100% - 20px);
   }
-
+  .subscribe {
+    flex-direction: column;
+  }
   .subscribe input,
   .subscribe button {
-      flex: 1 1 100%;
-  }
-
-  .subscribe {
-      flex-direction: column;
+    flex: 1 1 100%;
   }
 }
-
 @media (max-width: 768px) {
   .header h1 {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
-
   .footer-table {
-      width: 100%;
+    width: 100%;
   }
-
   .footer-table td {
-      text-align: center;
-      display: block;
+    text-align: center;
+    display: block;
   }
 }
-
 @media (max-width: 480px) {
   .header h1 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
-
   .subscribe input {
-      width: 100%;
+    width: 100%;
   }
-
   .subscribe button {
-      width: 100%;
-      margin-top: 10px;
+    width: 100%;
+    margin-top: 10px;
   }
-
   .footer-table td {
-      margin-bottom: 15px;
+    margin-bottom: 15px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
